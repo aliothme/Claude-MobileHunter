@@ -1,0 +1,18 @@
+# Decompiled app artifacts / working dirs — never commit extracted APK/IPA contents
+mobile/
+*.apk
+*.ipa
+*.aab
+*.dex
+*.ab
+
+# Evidence / secrets
+evidence/
+*.har
+.env
+*.pem
+*.key
+
+# OS noise
+.DS_Store
+Thumbs.db

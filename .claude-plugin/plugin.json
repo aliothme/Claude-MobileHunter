@@ -1,0 +1,12 @@
+{
+  "name": "hunt-mobile",
+  "description": "Mobile-app vulnerability hunting for Claude Code. /hunt-mobile decompiles an APK/IPA, runs an LLM-SAST pipeline (decompile -> scope filter -> risk-identify -> deep scan -> exploit -> MASVS report), and auto-loads the matching mhunt-* skills from 26 Android/iOS vulnerability classes. Ported from droid-llm-hunter's vuln_rules.",
+  "version": "1.0.0",
+  "author": {
+    "name": "alioth.me",
+    "url": "https://github.com/aliothme"
+  },
+  "homepage": "https://github.com/aliothme/Claude-MobileHunter",
+  "repository": "https://github.com/aliothme/Claude-MobileHunter",
+  "license": "MIT"
+}

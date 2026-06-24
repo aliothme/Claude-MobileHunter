@@ -1,0 +1,37 @@
+{
+  "name": "claude-mobilehunter",
+  "owner": {
+    "name": "alioth.me",
+    "url": "https://github.com/aliothme"
+  },
+  "metadata": {
+    "description": "Mobile-app vulnerability-hunting bundle for Claude Code. Decompiles an APK/IPA, runs an LLM-SAST pipeline, and hunts 26 Android/iOS vulnerability classes ported from droid-llm-hunter's vuln_rules.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "hunt-mobile",
+      "source": "./",
+      "description": "27-skill mobile bug-hunting bundle — /hunt-mobile command + mhunt-dispatch pipeline orchestrator + 26 mhunt-* vuln-class skills (webview, IPC/exported components, deep links, storage/secrets, crypto, injection, code-exec, biometric, logic flaws). Decompiles APK/IPA, greps detection_patterns to auto-load the right skills, hunts statically + dynamically, maps findings to OWASP MASVS. Ported from droid-llm-hunter.",
+      "version": "1.0.0",
+      "author": {
+        "name": "alioth.me",
+        "url": "https://github.com/aliothme"
+      },
+      "homepage": "https://github.com/aliothme/Claude-MobileHunter",
+      "category": "security",
+      "tags": [
+        "security",
+        "mobile-security",
+        "android",
+        "ios",
+        "apk",
+        "masvs",
+        "bug-bounty",
+        "pentest",
+        "reverse-engineering",
+        "hunt"
+      ]
+    }
+  ]
+}
